@@ -338,6 +338,10 @@ header.masthead .intro-text .intro-heading {
  }
 }
 
+.link-list>h3 {
+    margin: 20px 0 20px 0;
+    font-size: 1.2rem;
+}
 
 .link-list>li {
    max-width:285px;
@@ -370,7 +374,7 @@ header.masthead .intro-text .intro-heading {
 .link-list>li p {
    font-size:.875rem;
    line-height:24px;
-   font-weight:400;
+   font-weight:300;
    margin-bottom:0;
 }
 
@@ -676,7 +680,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
