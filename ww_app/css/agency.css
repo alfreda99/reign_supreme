@@ -339,7 +339,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .link-list>li {
-   max-width:285px;
+   max-width:320px;
    width:100%;
    margin:0 auto 1.5rem;
    padding:1.5rem
@@ -421,7 +421,7 @@ header.masthead .intro-text .intro-heading {
   border: 7px solid #fff;
 }
 
-.teammember h3 {
+.team-member h3 {
     margin: 20px 0 20px 0;
     font-size: 1.2rem;
 }
