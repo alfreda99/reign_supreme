@@ -2,7 +2,7 @@
 import sys
 import logging
 logging.basicConfig(stream=sys.stderr)
-sys.path.insert(0,"/var/www/lien_loft/")
+sys.path.insert(0,"/var/www/reign_supreme/")
 
-from lien_loft import app as application
+from reign_supreme import app as application
 

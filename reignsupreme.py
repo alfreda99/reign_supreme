@@ -1,0 +1,1 @@
+from ww_app import app
