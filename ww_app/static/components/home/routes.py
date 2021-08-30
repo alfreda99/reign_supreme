@@ -26,8 +26,8 @@ def favicon():
     #app root path = /vagrant/reign_supreme/ww_app
 
     print("************************************** home.root_path")
-    print(home.root_path)
-    return send_from_directory(home.root_path+'/../../img/','favicon.ico')
+    print(app.root_path)
+    return send_from_directory(app.root_path+'/../../img/','favicon.ico')
 
 
 @home.errorhandler(404)
