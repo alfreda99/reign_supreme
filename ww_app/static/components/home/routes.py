@@ -82,7 +82,7 @@ def app_notify(name, email, subject, message):
 
     # Send download via smtp
     username = 'support@lienloft.com'
-    password = 'nextLevel2014'
+    password = 'free@Last99'
     mailserver = smtplib.SMTP_SSL('smtp.mail.us-west-2.awsapps.com', 465)
     mailserver.login(username, password)
     mailserver.sendmail(fromaddr, toaddr, content)
