@@ -48,11 +48,10 @@ def notify_intro():
     fullname = request.form['fullname']
     email = request.form['email']
     message = request.form['message']
-    bchoice = request.form['bchoice']
 
     sendto_email ="info@findyourbluesky.com"
     subject = "ReignSupreme Contact Notification"
-    email_msg = "You have received a new message from ReignSupreme contact form.\n\n.Here are the details:\n\n Name: {0}\n\nEmail: {1}\n\nBusiness Choice: {2} \n\nMessage:\n{3}".format(fullname, email, bchoice, message)
+    email_msg = "You have received a new message from ReignSupreme contact form.\n\n.Here are the details:\n\n Name: {0}\n\nEmail: {1}\n\nMessage:\n{2}".format(fullname, email, message)
     print(email_msg)
     try:
 

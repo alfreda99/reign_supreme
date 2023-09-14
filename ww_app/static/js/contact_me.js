@@ -10,7 +10,6 @@ $(function() {
       // get values from FORM
       var fullname = $("input#fullname").val();
       var email = $("input#email").val();
-      var bchoice = document.querySelector('input[name="bchoice"]:checked').value;
       var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
